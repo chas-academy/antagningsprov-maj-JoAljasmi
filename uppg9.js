@@ -11,4 +11,15 @@ function uppg9 (){
   
 }
 
+function sort (numbers){
+    for(let i = 0; i < numbers.length; i++){
+        if(numbers[i] % 2 === 0){
+            console.log(numbers[i] + " jämnt");
+        }
+        else{
+            console.log(numbers[i] + " udda");
+        }
+    }
+}
+sort([5,4,3,2,65,90]);
 module.exports = { uppg9 };
